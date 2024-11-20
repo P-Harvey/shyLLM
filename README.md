@@ -1,9 +1,5 @@
 # README
 
-![A shy Llama, image created using Apple Intelligence Playgorund](shyLLaMa)
-
-[shyLLaMa]: https://github.com/P-Harvey/shyLLM/blob/main/shyLLaMa.png
-
 <img src="https://github.com/P-Harvey/shyLLM/blob/main/shyLLaMa.png" alt="A shy Llama, image created using Apple Intelligence Playgorund" width="360px" height="360px"> 
 
 
