@@ -1,0 +1,21 @@
+FROM python:3.13-rc-slim
+
+# Set the working directory in the container
+WORKDIR /app
+
+# Copy dependency files into the container
+COPY requirements.txt .
+
+# Upgrade pip and install dependencies
+RUN pip install --no-cache-dir --upgrade pip && \
+    pip install --no-cache-dir -r requirements.txt
+
+# Copy application code into the container
+COPY . ./
+
+# Install Bash scripts in the container
+RUN chmod +x build.sh
+
+# Move Bash scripts to /app for easier execution
+RUN mv build.sh /app/build.sh && \
+    mv setup.sh /app/setup.sh
