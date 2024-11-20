@@ -1,6 +1,6 @@
 # NOTICE
 
-## [shLLeM] License Notice
+## [shyLLM] License Notice
 
 ## **Copyright 2024 P.L. Harvey**
 

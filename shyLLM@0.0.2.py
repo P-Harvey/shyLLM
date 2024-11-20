@@ -1,6 +1,6 @@
 """
-File:           ./shLLeM.py
-Supports:       self_host_LLM
+File:           ./shyLLM.py
+Name:           Self Host your (own) LLM
 Description:    This module launches a local server using FastAPI
                 to serve a large language model (LLM).
                 It dynamically loads the specified LLM, handles
@@ -33,7 +33,7 @@ MODEL_NAME: str = os.environ.get(
     )  # Default model if not specified.
 
 # API key for authentication (optional).
-API_KEY: str | None = os.environ.get("SHLLEM_API_KEY")
+API_KEY: str | None = os.environ.get("SHYLLM_API_KEY")
 
 # --- Logging Setup ---
 

@@ -1,2 +1,2 @@
-docker build -t shLLeM .
-docker run -d -p 8000:8000 shLLeM
+docker build -t shyLLM .
+docker run -d -p 8000:8000 shyLLM

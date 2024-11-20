@@ -1,6 +1,6 @@
 # README
 
-**shLLeM**
+**shyLLM:** Self-host your (own) LLM
 
 **Version:** 0.0.1
 
@@ -21,26 +21,26 @@ requirements requested by the user(s) and the hardware available.
 1. Using ```pip```:
 
 ```{bash}
-pip install shLLeM
+pip install shyLLM
 ```
 
 2: Using ```git```:
 
 ```{bash}
-git clone https://github.com/P-Harvey/shLLeM.git
+git clone https://github.com/P-Harvey/shyLLM.git
 ```
 
 3: Using ```Docker```:
 
 ```{bash}
-docker build -t shLLeM .
-docker run -d -p 8000:8000 shLLeM
+docker build -t shyLLM .
+docker run -d -p 8000:8000 shyLLM
 ```
 
 ## Package Structure
 
 ```{bash}
-./shLLeM@0.0.1
+./shyLLM@0.0.1
     ├── LICENSE                 <Apache2.0 License>
     ├── NOTICE                  <License Notice>
     ├── README                  <You Are Here>
@@ -50,12 +50,12 @@ docker run -d -p 8000:8000 shLLeM
     │   ├── distribute          <docker build script>
     │   ├── requirements.txt    <dependencies>
     │   └── setup.sh            <setup script>
-    ├── shLLeM.py               <primary script>
+    ├── shyLLM.py               <primary script>
 ```
 
 ## Remarks
 
-shLLeM is still in its early stages of development. Be sure to
+shyLLM is still in its early stages of development. Be sure to
 test any new features or updates thoroughly before using them
 in production.
 
@@ -64,7 +64,7 @@ hesitate to reach out!
 
 ## Citations
 
-```
+```{LaTeX}
 @article{hui2024qwen2,
       title={Qwen2. 5-Coder Technical Report},
       author={Hui, Binyuan and Yang, Jian and Cui, Zeyu and Yang, Jiaxi and Liu, Dayiheng and Zhang, Lei and Liu, Tianyu and Zhang, Jiajun and Yu, Bowen and Dang, Kai and others},

@@ -1,4 +1,4 @@
-# [shLLeM] License
+# [shyLLM] License
 
 ## **Copyright 2024 P.L. Harvey**
 
@@ -17,7 +17,7 @@ limitations under the License.
 
 ## Project metadata
 
-**Project Name:** shLLeM
+**Project Name:** shyLLM
 
 **Project Description:**
     This package supports the self-hosting of text-generation models (LLMs)

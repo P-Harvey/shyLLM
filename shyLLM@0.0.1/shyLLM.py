@@ -1,6 +1,6 @@
 """
-File:           ./shLLeM.py
-Supports:       self_host_LLM
+File:           ./shyLLM.py
+Name:           Self Host your (own) LLM
 Description:    This module launches a local server
                 using the uvicorn python package.
                 Some attempts have been made to handle
