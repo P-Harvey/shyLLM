@@ -39,7 +39,7 @@ def find_available_port() -> int:
             sock = socket(AF_INET,
                           SOCK_STREAM)
 
-            sock.bind(("0.0.0.0",
+            sock.bind(("127.0.0.1",
                        port))
 
             # If the binding is successful,
@@ -73,7 +73,7 @@ def run_server() -> None:
         # Run Uvicorn with the chosen port and reload=True
         # to automatically restart if changes are made to the app code
         uvicorn.run("main:app",
-                    host = "0.0.0.0",
+                    host = "127.0.0.1",
                     reload = True,
                     port = port)
 
