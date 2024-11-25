@@ -4,4 +4,4 @@ python-telegram-bot==18.3
 transformers==4.38.0
 requests==2.28.2
 logging==3.4.7
-pydantic==1.10.5
+pydantic==1.10.13
