@@ -5,7 +5,7 @@
 
 **shyLLM:** Self-host your (own) LLM
 
-**Version:** 0.0.1
+**Version:** 0.0.2
 
 **Copyright 2024 P.L. Harvey**
 
