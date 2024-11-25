@@ -21,6 +21,10 @@ requirements requested by the user(s) and the hardware available.
 
 ## Installation
 
+**PENDING package generation and publication to PyPi**
+
+**THESE FEATURES NOT YET IMPLEMENTED**
+
 1. Using ```pip```:
 
 ```{bash}
